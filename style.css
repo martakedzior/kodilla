@@ -62,6 +62,9 @@ section {
 .contact-form h2 {
     padding-bottom: 20px;
 }
+.contact-form button {
+	background: rgb(175, 223, 138);
+	}
 footer {
   margin-top: 60px;
   padding: 30px;
