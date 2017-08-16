@@ -56,6 +56,12 @@ section {
 .job ul {
     list-style-type: square;
 }
+.contact-form {
+	padding-bottom: 20px;
+}
+.contact-form h2 {
+    padding-bottom: 20px;
+}
 footer {
   margin-top: 60px;
   padding: 30px;
