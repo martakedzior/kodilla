@@ -20,6 +20,20 @@ module.exports = function(grunt) {
   			}
   		}
   	},
+      
+    browserSync: {
+        bsFiles: {
+            src : ['css/*.css', '*.html']
+        },
+        options: {
+            server: {
+                baseDir: "./"
+            },
+            options: {
+                watchTask: true
+            }
+        }
+    },
 
   	imagemin: {
   		dynamic: {
@@ -36,9 +50,10 @@ module.exports = function(grunt) {
   // Load the plugins tasks
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-browser-sync');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   // Default task(s)
 
-  grunt.registerTask('default', ['sass', 'imagemin']);
+  grunt.registerTask('default', ["browserSync", "watch"]);
 };
