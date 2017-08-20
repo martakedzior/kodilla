@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Pacifico:400,500);
+body {
+  margin: 0;
+  background-color: #246068;
+  font-family: 'Montserrat', sans-serif; }
+
+header {
+  padding: 30px;
+  margin: auto;
+  text-align: center;
+  background: url(https://images.pexels.com/photos/51099/pexels-photo-51099.jpeg?h=350&auto=compress&cs=tinysrgb) 50% 90%;
+  background-size: 700px;
+  background-repeat: no-repeat; }
+  header h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #02413f; }
+  header p {
+    color: white;
+    font-weight: bold; }
+  header h1 {
+    font-family: 'Pacifico', sans-serif; }
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+  background-color: #7eaab4; }
+  .container h2 {
+    font-family: 'Pacifico', sans-serif; }
+
+section {
+  padding: 0 20%; }
+
+.about {
+  margin-top: 60px;
+  padding-top: 20px; }
+  .about h2 {
+    font-size: 28px;
+    color: #ffff83; }
+
+.interests {
+  margin-top: 40px; }
+  .interests h2 {
+    color: #ffc083; }
+
+.job {
+  margin-top: 40px; }
+  .job h2 {
+    color: #afdf8a; }
+  .job ul {
+    list-style-type: square; }
+
+.contact-form {
+  padding-bottom: 20px; }
+  .contact-form h2 {
+    padding-bottom: 20px; }
+  .contact-form button {
+    background: #afdf8a; }
+
+footer {
+  margin-top: 60px;
+  padding: 30px;
+  background: #0a334d; }
+  footer p {
+    text-align: center;
+    color: #B0B5C4; }
+  footer a {
+    text-decoration: none;
+    color: #FFC532;
+    font-weight: bold; }
+
+/*# sourceMappingURL=main.css.map */
