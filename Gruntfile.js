@@ -40,8 +40,8 @@ module.exports = function(grunt) {
   			files: [{
   				expand: true,
   				cwd: 'images/',
-  				src: ['**/*.{png,jpg,gif}'],
-  				dest: 'images/build/'
+  				src: ['**/*.{png,jpg,gif,jpeg}'],
+  				dest: 'build/'
   			}]
   		}
   	}
@@ -55,5 +55,5 @@ module.exports = function(grunt) {
 
   // Default task(s)
 
-  grunt.registerTask('default', ["browserSync", "watch"]);
+  grunt.registerTask('default', ["sass", "imagemin", "browserSync", "watch"]);
 };
